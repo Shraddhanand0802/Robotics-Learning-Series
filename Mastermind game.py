@@ -21,7 +21,7 @@ def run():
                         c_p.append(num[i])
             
             for digit in user_guess:
-                if digit in num:
+                if digit in n:
                     i_p.append(digit)
                     n.remove(digit)
 
